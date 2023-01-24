@@ -1,0 +1,464 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+/* fonts */
+
+@font-face {
+    font-family: poppins-bold;
+    src: url(./assets/fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: poppins-semi-bold;
+    src: url(./assets/fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: poppins-medium;
+    src: url(./assets/fonts/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: helvetica;
+    src: url(/System/Library/Fonts/HelveticaNeue.ttc);
+}
+
+@font-face {
+    font-family: helvetica-cursive ;
+    src: url(	/System/Library/Fonts/HelveticaNeue.ttc);
+}
+
+@font-face {
+    font-family: helvetica-bold;
+    src: url(/System/Library/Fonts/HelveticaNeue.ttc);
+}
+
+/* index */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: #F1EAE2;
+}
+
+.hamburger {
+    height: 20px;
+    width: 20px;
+    margin-top: 1.5%;
+    margin-left: 2%;
+}
+
+.logo {
+    height: 30px;
+    width: max-content;
+}
+
+.profiel {
+    height: 25px;
+    width: 17px;
+    margin-top: 1%;
+    margin-right: 2%;
+}
+
+nav {
+    position: sticky;
+    padding: 2%;
+    font-family: poppins-medium;
+    top: 0;
+    background-color: white;
+    border: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: #abdb45;
+    text-decoration: underline;
+}
+
+.navList {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navList li:hover {
+    color: #abdb45 
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+hr {
+    width: 30px;
+}
+
+.visit {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pic1 {
+    width: 100%;
+    height: 15em;
+    object-fit: cover;
+    object-position: top -50px right 0px;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 3%;
+}
+
+.welcome h2 {
+    padding-bottom: 3%;
+    font-family: poppins-bold;
+    font-size: 145%;
+}
+
+.welcome p {
+    font-family: helvetica;
+    font-size: 90%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    font-family: poppins-medium;
+    border: 1px solid;
+    border-radius: 8px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.subscribe a {
+    color: black;
+    text-decoration: none;
+}
+
+.subscribe:hover {
+    color: #abdb45;
+}
+
+.subscribe a:hover {
+    color: #abdb45;
+}
+
+.pics{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 3%;
+}
+
+.pics img {
+    width: 170px;
+}
+
+.info-stukje {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.info-stukje div {
+    margin: 3%;
+}
+
+.info-stukje h3 {
+    font-family: poppins-semi-bold;
+    font-size: 115%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 2%;
+}
+
+.info-stukje p {
+    font-family: helvetica;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+/* categories */
+
+.categories {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 3%;
+    gap: 3%;
+    margin: 3%;
+    opacity: 90%;
+}
+
+.categories>div {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.categories h2 {
+    position: relative;
+    font-family: poppins-medium;
+    color: white;
+}
+
+.categories h2:hover {
+    color: #abdb45;
+}
+
+.categories a {
+    text-decoration: none;
+}
+
+.categories a:hover {
+    color: #abdb45;
+    text-decoration: underline;
+}
+
+.home2 {
+    background: url(./assets/images/centraal.jpeg);
+}
+
+.visit2 {
+    background: url(./assets/images/rijksmuseum.jpeg);
+}
+
+.see {
+    background: url(./assets/images/4mei.jpeg);
+}
+
+.goingout {
+    background: url(./assets/images/feest.jpg);
+}
+
+.activ {
+    background: url(./assets/images/kalverstraat.jpeg);
+}
+
+.connect {
+    background: url(./assets/images/vondel-meiden.jpeg);
+    text-align: center;
+}
+
+.upload {
+    background: url(./assets/images/vmr1.jpeg);
+}
+
+/* visit */
+
+.filter {
+    font-family: poppins-medium;
+    color: #abdb45;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    margin-bottom: -3%;
+}
+
+.filter a {
+    font-family: poppins-medium;
+    text-decoration: underline 0.8px;
+    padding-left: 4%;
+    color: #abdb45;
+}
+
+.filter h4 {
+    font-size: 110%;
+}
+
+.filter p {
+    border: solid 1.5px #abdb45;
+    border-radius: 20px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    margin-left: 3%;
+    font-size: 90%;
+}
+
+.plaatje {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.plaatje img {
+    display: flex;
+    align-self: center;
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    margin-top: 4%;
+}
+
+.kleurblok {
+   padding: 3%;
+   padding-top: 2%;
+   margin-left: 10%;
+   margin-right: 10%;
+   background-color: #6065A1;
+    color: white;
+}
+
+.kleurblok h2 {
+    font-family: poppins-semi-bold;
+}
+
+.kleurblok p {
+    font-family: helvetica;
+    margin-bottom: 2.5%;
+}
+
+.locatie {
+    font-style: italic;
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    font-size: 90%;
+}
+
+.locatie img {
+    height: 20px;
+    margin-right: 2%;
+}
+
+.iconen {
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px;
+    gap: 3%;
+}
+
+.iconen img {
+    height: 35px;
+    width: 36px;
+}
+
+.plaatje2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.plaatje2 img {
+    display: flex;
+    align-self: center;
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    margin-top: 4%;
+}
+
+.vondelpark {
+    text-decoration: none;
+}
+
+/* vondelpark */
+
+.vondelfoto{
+    background-image: url(./assets/images/vondel-water.jpeg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top -160px right 0px;
+}
+
+.blok {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #6065A1;
+    margin-top: -60px;
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 120px;
+    color: white;
+}
+
+.blok h2 {
+    font-family: poppins-semi-bold;
+}
+
+.blok p {
+    display: flex;
+    align-items: center;
+    max-width: 170px;
+    font-family: helvetica;
+}
+
+.tekstje {
+    font-family: helvetica;
+    margin-top: 4%;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.tekstje ul {
+    margin-top: 3%;
+    font-family: helveticaNeue-Bold;
+}
+
+.icoontjes {
+    font-family: poppins;
+    font-size: 85%;
+}
+
+.left {
+    font-size: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 3%;
+}
+
+.left img {
+    height: 70px;
+    width: 70px;
+    margin: 3%;
+    margin-top: 5%;
+}
+
+.right {
+    font-size: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    margin: 3%;
+}
+
+.right img {
+    height: 70px;
+    width: 70px;
+    margin: 3%;
+    margin-top: 5%;
+}
