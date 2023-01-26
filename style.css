@@ -212,6 +212,7 @@ hr {
     gap: 3%;
     margin: 3%;
     opacity: 90%;
+    margin-bottom: 65px;
 }
 
 .categories>div {
@@ -417,19 +418,27 @@ hr {
     display: flex;
     align-items: center;
     max-width: 170px;
-    font-family: helvetica;
+    font-family: helveticaNeue;
 }
 
 .tekstje {
-    font-family: helvetica;
+    font-family: helveticaNeue;
     margin-top: 4%;
-    margin-right: 3%;
-    margin-left: 3%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .tekstje ul {
-    margin-top: 3%;
+
+    font-family: helveticaNeue;
+    font-size: 95%;
+    margin-left: 3%;
+}
+
+.tekstje h3 {
     font-family: helveticaNeue-Bold;
+    font-size: 95%;
+    margin-top: 3%;
 }
 
 .icoontjes {
@@ -499,7 +508,6 @@ hr {
     display: flex;
     align-items: center;
     margin-left: -3%;
-    gap: -10px;
 }
 
 .logos img {
@@ -508,6 +516,10 @@ hr {
 }
 
 /* footer */
+
+footer  {
+    margin-top: 3%;
+}
 
 .bruin {
     display: flex;
@@ -537,7 +549,6 @@ hr {
     width: 270px;
     height: 20px;
     display: flex;
-    align-items: left;
     margin: 3%;
     padding: 0.5%;
 }
