@@ -506,3 +506,70 @@ hr {
     height: 35px;
     width: 35px;
 }
+
+/* footer */
+
+.bruin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #78554D;
+    height: 140px;
+    color: white;
+    margin-top: 5%;
+}
+
+.bruin h4 {
+    font-family: poppins-medium;
+    margin: 1%;
+}
+
+.bruin p {
+    font-family: helvetica;
+    font-size: 75%;
+    text-align: center;
+}
+
+.email {
+    background-color: white;
+    color: grey;
+    width: 270px;
+    height: 20px;
+    display: flex;
+    align-items: left;
+    margin: 3%;
+    padding: 0.5%;
+}
+
+.email p {
+    font-size: 80%;
+    padding: 2px;
+    padding-left: 5px;
+}
+
+.creme {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F1EAE2;
+}
+
+.creme ul {
+    font-family: helvetica;
+    font-size: 80%;
+    list-style-type: none;
+    margin: 4%;
+}
+
+.creme h5 {
+    font-family: poppins-medium;
+}
+
+.socials {
+    margin: 4%;
+}
+
+.socials img {
+    height: 20px;
+    width: 100px;
+}
