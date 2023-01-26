@@ -133,7 +133,7 @@ hr {
 
 .welcome p {
     font-family: helvetica;
-    font-size: 90%;
+
     margin-left: 7%;
     margin-right: 7%;
 }
@@ -141,11 +141,13 @@ hr {
 .subscribe {
     display: flex;
     justify-content: center;
+    align-items: center;
     font-family: poppins-medium;
     border: 1px solid;
     border-radius: 8px;
     width: 200px;
     margin: auto;
+    margin-top: 2%;
     margin-bottom: 5%;
 }
 
@@ -171,6 +173,8 @@ hr {
 
 .pics img {
     width: 170px;
+    height: 170px;
+    object-fit: cover;
 }
 
 .info-stukje {
@@ -186,7 +190,7 @@ hr {
 
 .info-stukje h3 {
     font-family: poppins-semi-bold;
-    font-size: 115%;
+    font-size: 110%;
     margin-left: 6%;
     margin-right: 6%;
     margin-bottom: 2%;
@@ -196,6 +200,7 @@ hr {
     font-family: helvetica;
     margin-left: 8%;
     margin-right: 8%;
+    font-size: 90%;
 }
 
 /* categories */
@@ -470,9 +475,8 @@ hr {
     display: flex;
     flex-direction: row;
     align-items: center;
-
     background-color: #abdb45;
-    height: 120px;
+    height: 140px;
 }
 
 .aangeraden img {
@@ -484,9 +488,21 @@ hr {
 
 .naomi {
     margin: 3%;
-   font-family: helvetica; 
+    font-family: helvetica; 
 }
 
 .naomi h4 {
     font-family: poppins-semi-bold;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    margin-left: -3%;
+    gap: -10px;
+}
+
+.logos img {
+    height: 35px;
+    width: 35px;
 }
